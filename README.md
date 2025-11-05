@@ -6,10 +6,7 @@ It focuses on data cleaning, transformation, and SQL-based insights to uncover p
 ---
 
 ## 🧰 Tools Used
-- 🐘 **PostgreSQL** – Database management and SQL analysis  
-- 💻 **VS Code** – Code editor for SQL scripting and database connection  
-- 🧮 **pgAdmin / SQLTools** – For importing data and running queries  
-- 📄 **Dataset:** `netflix_titles.csv`
+[![My Skills](https://skillicons.dev/icons?i=postgres,python,vscode,wasm)](https://skillicons.dev)
 
 ---
 
