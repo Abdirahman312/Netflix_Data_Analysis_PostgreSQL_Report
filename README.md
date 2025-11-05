@@ -272,5 +272,5 @@ Dataset source: [Netflix Titles on Kaggle](https://www.kaggle.com/shivamb/netfli
 
 ---
 
-⭐ **Author:** Abdirahman
+⭐ **Author:** _Abdirahman_
 🗓️ **Year:** 2025  
