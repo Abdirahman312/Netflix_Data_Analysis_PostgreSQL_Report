@@ -209,7 +209,7 @@ ORDER BY avg_release_year DESC
 LIMIT 15;
 ```
 
-# 11️⃣ Countries Adding Most Titles Recently
+# 1️⃣ Countries Adding Most Titles Recently
 ```sql
 SELECT 
     country,
@@ -221,7 +221,7 @@ ORDER BY total_recent_titles DESC
 LIMIT 10;
 ```
 
-### 12️⃣ Most Common Ratings
+### 2️⃣ Most Common Ratings
 ```sql
 SELECT rating, COUNT(*) AS total_titles
 FROM netflix_titles
@@ -230,7 +230,7 @@ GROUP BY rating
 ORDER BY total_titles DESC;
 ```
 
-### 13️⃣ Longest vs Shortest Duration by Type
+### 3️⃣ Longest vs Shortest Duration by Type
 ```sql
 SELECT 
     type,
