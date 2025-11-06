@@ -1,14 +1,10 @@
-# 🎬 Netflix Titles Data Cleaning & Analysis (PostgreSQL)
+# 🎬Netflix Titles Data Cleaning & Analysis (PostgreSQL) <img src="https://github.com/user-attachments/assets/3e1005cd-5a97-4625-b1e4-cdc84b535ffd" width="40px">
 
 This project explores and analyzes the Netflix Titles dataset using PostgreSQL in VS Code.  
 It focuses on data cleaning, transformation, and SQL-based insights to uncover patterns in Netflix's global catalog of Movies and TV Shows.
 
----
-
 ## 🧰 Tools Used
 [![My Skills](https://skillicons.dev/icons?i=postgres,vscode)](https://skillicons.dev)
-
----
 
 ## 🗂️ Dataset Overview
 The dataset contains information on Movies and TV Shows available on Netflix, including:
