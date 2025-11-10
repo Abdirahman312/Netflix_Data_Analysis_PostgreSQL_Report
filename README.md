@@ -268,6 +268,11 @@ Dataset source: [Netflix Titles on Kaggle](https://www.kaggle.com/shivamb/netfli
 
 ---
 
+## 📬 Contact Me on:
+
+- 💼 **LinkedIn:** [linkedin.com/in/abdirahman-ahmed-b7841a343](https://www.linkedin.com/in/abdirahman-ahmed-b7841a343)  
+- 📧 **Email:** [abdirahmanahmed2728@email.com](mailto:abdirahmanahmed2728@email.com)   
+---
 ⭐ **Author:** _Abdirahman_
 
 🗓️ **Year:** 2025  
