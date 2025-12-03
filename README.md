@@ -238,28 +238,75 @@ SELECT
 FROM netflix_titles
 GROUP BY type;
 ```
+---
+
+## 📊 Movies vs TV Shows
+<img width="1800" height="1200" alt="movies_vs_tvshows" src="https://github.com/user-attachments/assets/275c3f18-78f4-4aca-9839-aaa46a02e63e" />
+
+## 🌍 Top 10 Countries by Number of Titles
+<img width="3000" height="1800" alt="countries_distribution" src="https://github.com/user-attachments/assets/6ca9fcfe-24ae-47a9-b3f6-4e576c2c4afb" />
+
+## 📈 Releases Over the Years
+<img width="3000" height="1800" alt="releases_over_years" src="https://github.com/user-attachments/assets/3ee5369a-d32a-483a-9840-8e44fdffc160" />
 
 ---
 
-## 📊 Key Insights
-- 🎥 **Movies dominate** the catalog compared to TV Shows  
-- 🌍 **United States, India, and UK** lead in content production  
-- 🎭 **Documentaries, Dramas, and Comedies** are the most frequent genres  
-- 🗓️ Netflix adds **most titles between August–December**  
-- 📈 **2019–2021** saw the highest number of new releases added  
-- 👶 **Kids TV** and **Stand-Up Comedy** are among the most common sub-genres
+## 📌 Insights
+
+### 1. Movies dominate Netflix content  
+Movies make up the majority of Netflix titles. This shows Netflix’s strong investment in film content.
+
+### 2. The United States produces the most content  
+The U.S. has the highest number of Netflix titles, followed by India and the UK.
+
+### 3. Content production grew after 2015  
+There is a strong increase in releases between 2015 and 2020, showing Netflix’s global expansion.
+
+### 4. Drama is the top genre  
+Drama leads all categories, followed by Comedy and Documentary.
+
+### 5. Rising production of TV Shows  
+Even though movies are more common overall, TV show releases have been rising quickly in recent years.
 
 ---
 
-## 🚀 How to Run
+## 🔧 How to Run This Project (Reproduce the Analysis)
 
-1. Install PostgreSQL and VS Code  
-2. Create database:
-   ```sql
-   CREATE DATABASE netflix_analysis;
-   ```
-3. Import CSV and run the cleaning & analysis queries in `netflix_analysis.sql`.  
-4. View your query results or export to CSV for visualization.
+Follow these steps to recreate the Netflix PostgreSQL analysis on your own machine.
+
+### 1. Install PostgreSQL
+Download PostgreSQL from:  
+https://www.postgresql.org/download/
+
+Make sure pgAdmin is installed as well.
+
+---
+
+### 2. Create a new database
+Open pgAdmin and run:
+
+```sql
+CREATE DATABASE netflix;
+CREATE TABLE netflix_titles (
+    show_id TEXT,
+    type TEXT,
+    title TEXT,
+    director TEXT,
+    "cast" TEXT,
+    country TEXT,
+    date_added TEXT,
+    release_year INT,
+    rating TEXT,
+    duration TEXT,
+    listed_in TEXT,
+    description TEXT
+);
+
+COPY netflix_titles
+FROM 'C:/path/to/netflix_titles.csv'
+DELIMITER ','
+CSV HEADER;
+```
 
 ---
 
