@@ -5,7 +5,7 @@ It focuses on data cleaning, transformation, and SQL-based insights to uncover p
 
 ---
 ## 🧰 Tools Used
-[![My Skills](https://skillicons.dev/icons?i=postgres,vscode)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=postgres,vscode,python)](https://skillicons.dev)
 
 ---
 
